@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+     <!-- Font Awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+ 
+     <!-- Customized stylesheet and Bootstrap Stylesheet -->
+     <link rel="stylesheet" href="css/stylesheet.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+
+     <!--resume link-->
+     <script src="./js/download.js"></script>
+
+    <title>myprofile</title>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+    
+     <!-- Navbar Start -->
+     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Irfan</span>Shaikh</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#projects" class="nav-item nav-link">Projects</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Video Modal Start -->
+    <div class="modal" id="videoModal" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-white d-flex align-items-center py-5" id="home" style="min-height:100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-dark font-weight-bold mb-3">Hello I'M</h3>
+                    <h1 class=" text-uppercase mb-2 text-dark mb-5"><span class="text-primary">web </span>designer <span class="text-primary"> & </span>developer</h1>
+                    <P style="color:rgba(28, 3, 3, 0.648)">Hii,</P>
+                    <p style="color:rgba(28, 3, 3, 0.648)">I am passionate web developer, driven 
+                        by the excitement of turning ideas into digital reality. 
+                        My journey in the world of web development is fueled by a relentless curiosity and a 
+                        commitment to creating seamless and impactful online experiences.
+                    </p>
+
+                    <div class="d-flex justify-content-lg-start justify-content-center mt-4">
+                        <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="./img/Irfan.JPG" alt="">
+                </div>
+                <div class="d-flex align-items-center justify-content-lg-start justify-content-center pt-5">
+                    <a href="./Irfan Resume1.pdf" download="Irfan Resume1" id="downloadButton" class="btn btn-outline-dark mr-5">Download CV</a>
+                    
+                    <button type="button" class="btn-play" data-toggle="modal"
+                        data-src="" data-target="#videoModal">
+                        <span></span>
+                    </button>
+                    <h5 class="font-weight-normal text-dark m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-4">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-75 d-block mx-auto text-center" src="img/Irfan.JPG" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Web Developer</h3>
+                    <p>Passionate about turning code into captivating digital experiences. I embark on my journey as a web developer with an insatiable curiosity and a commitment to excellence.
+                        As a fresh mind in the field, I bring not just technical skills but a hunger for knowledge and a determination to go beyond the ordinary. 
+                        Join me on this exciting expedition where creativity meets functionality, 
+                        and together, let's build the future of the web."
+                    </p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Irfan Shaikh</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">30 May 1995</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Bachelor's Engineering</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91-9860338964</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">shkirfan67@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Near sanjay nagar, Latur</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                    </div>
+                    <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+     <!-- Qualification Start -->
+     <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-4">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Training</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Bachelor's Engineering</h5>
+                            <p class="mb-2"><strong>SRTM University </strong> | <small>2016 - 2020</small></p>
+                            <p>I did my Bachelor's Engineering from VIT Sandipani Technical Campus, Latur</p>
+                        </div>
+                        
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Diploma in Mechanical Engineering</h5>
+                            <p class="mb-2"><strong>MSBTE University</strong> | <small>2013 - 2016</small></p>
+                            <p>I did Diploma in Mechanical Engineering  from Phoenix Institute of polytechnic, Lodga, Latur</p>
+                        </div>
+                        
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">HSC</h5>
+                            <p class="mb-2"><strong>MSBSHS University</strong> | <small>2011 - 2013</small></p>
+                            <p>I did HSC(12th) from Azeem junior college, Ausa, Latur</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">HSC</h5>
+                            <p class="mb-2"><strong>MSBSHS University</strong> | <small>2010 - 2011</small></p>
+                            <p>I did SSC(10th) from Zilla Parishad Hign School,Lamjana, Latur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Trainings</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">PG-Diploma</h5>
+                            <p class="mb-2"><strong>CDAC Institute</strong> | <small>2022 - 2023</small></p>
+                            <p>The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-4">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width:95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">MySQL</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">React JS</h6>s
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Bootstrap</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+     <!-- Services Start -->
+     <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-4">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum adipisci aspernatur voluptates voluptatibus corrupti deleniti sed reprehenderit perferendis, odit rem provident aliquam commodi. Repellat hic fuga molestias explicabo, non inventore.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam magni perferendis vero quaerat rerum eligendi. Modi quaerat labore reiciendis non repellat asperiores magni! Commodi nostrum laudantium deserunt ratione sed ullam.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Design</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum illo ab, rem recusandae quia, error pariatur similique assumenda delectus doloremque dolorum ipsam incidunt. Exercitationem animi nisi consequatur, voluptates iusto quos.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Projects Start -->
+    <div class="container py-5" id="projects">
+        <div class="position-relative d-flex align-items-center justify-content-center mb-4">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">Projects</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Projects</h1>
+        </div>
+    
+        <div class="row justify-content-around" style="min-height:25vh;">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-primary rounded">
+                    <img class="card-img-top" src="./Iconicshoping-1.png" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">thanksPopup</h5>
+                        <p class="card-text">This is only just a popup msg created in HTML and CSS. You can visit and see it</p>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <a href="./thanksPopup.html" target="_blank" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-primary">
+                    <img class="card-img-top" src="./Iconicshoping-2.png" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Iconicshop-2</h5>
+                        <p class="card-text"><blockquote>I developed a dynamic web application that fetches and displays data 
+                            from a dummy JSON API. The project showcases my proficiency in working with external APIs, 
+                            handling JSON data, and creating an interactive and responsive user interface.</blockquote>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <a href="https://iconic-shop.vercel.app/" target="_blank" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-primary">
+                    <img class="card-img-top" src="./Iconicshoping-2.png" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Iconicshop-2</h5>
+                        <p class="card-text"><blockquote> I developed a dynamic web application that fetches and displays data 
+                            from a dummy JSON API. The project showcases my proficiency in working with external APIs, 
+                            handling JSON data, and creating an interactive and responsive user interface.</blockquote>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <a href="https://iconic-shop.vercel.app/" target="_blank" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Projects End -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="position-relative d-flex align-items-center justify-content-center mt-0 mb-4">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">Blog</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+        </div>
+    
+        <div class="row">
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">01</h4>
+                        <small class="text-white text-uppercase">Jan</small>
+                    </div>
+                </div>
+                <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+            </div>
+    
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">01</h4>
+                        <small class="text-white text-uppercase">Feb</small>
+                    </div>
+                </div>
+                <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+            </div>
+    
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1">01</h4>
+                        <small class="text-white text-uppercase">March</small>
+                    </div>
+                </div>
+                <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Blog End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #97c1a6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Contact me</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">download resume</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Web developer</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
